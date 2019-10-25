@@ -1,0 +1,890 @@
+[D 191022 22:50:37 selector_events:65] Using selector: SelectSelector
+[D 191023 09:40:55 selector_events:54] Using selector: SelectSelector
+[I 191023 09:41:10 web:2246] 200 GET / (127.0.0.1) 3408.20ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 33.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 36.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/css/ihome/index.css (127.0.0.1) 59.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 77.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 78.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 72.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 74.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 83.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 28.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 46.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 58.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/js/template.js (127.0.0.1) 54.00ms
+[I 191023 09:41:10 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 101.01ms
+[I 191023 09:41:10 web:2246] 200 GET /static/js/ihome/index.js (127.0.0.1) 87.00ms
+[I 191023 09:41:11 web:2246] 200 GET /static/images/logo@128x59.png (127.0.0.1) 11.00ms
+[I 191023 09:41:11 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 54.00ms
+[W 191023 09:41:11 web:2246] 404 GET /api/check_login (127.0.0.1) 4.00ms
+[W 191023 09:41:11 web:2246] 404 GET /api/house/index (127.0.0.1) 2.00ms
+[D 191023 09:48:22 selector_events:54] Using selector: SelectSelector
+[W 191023 09:48:37 web:2246] 404 GET /api/check_login (127.0.0.1) 5.00ms
+[W 191023 09:48:37 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[D 191023 09:52:20 selector_events:54] Using selector: SelectSelector
+[W 191023 09:52:59 web:2246] 404 GET /api/check_login (127.0.0.1) 5.00ms
+[W 191023 09:52:59 web:2246] 404 GET /api/house/index (127.0.0.1) 2.00ms
+[D 191023 09:59:04 selector_events:54] Using selector: SelectSelector
+[I 191023 09:59:07 web:2246] 200 GET / (127.0.0.1) 286.02ms
+[I 191023 09:59:07 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 4.00ms
+[I 191023 09:59:07 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 4.00ms
+[I 191023 09:59:07 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 2.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 3.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 4.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/css/ihome/search.css (127.0.0.1) 41.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/js/template.js (127.0.0.1) 4.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/js/ihome/search.js (127.0.0.1) 29.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 32.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 34.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 4.00ms
+[I 191023 09:59:08 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 6.00ms
+[W 191023 09:59:08 web:2246] 404 GET /api/house/area (127.0.0.1) 3.00ms
+[W 191023 09:59:30 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 1.00ms
+[W 191023 09:59:32 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 191023 09:59:39 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 191023 09:59:42 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 191023 10:06:09 web:2246] 404 GET /api/house/area (127.0.0.1) 1.00ms
+[W 191023 10:06:16 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 191023 10:06:18 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 191023 10:06:19 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 1.00ms
+[W 191023 10:06:31 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 191023 10:06:32 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 1.00ms
+[W 191023 10:06:50 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 1.00ms
+[W 191023 10:07:02 web:2246] 404 GET /api/house/area (127.0.0.1) 2.00ms
+[D 191023 10:13:57 selector_events:54] Using selector: SelectSelector
+[W 191023 10:14:06 web:2246] 404 GET /api/house/area (127.0.0.1) 5.00ms
+[I 191023 10:14:26 web:2246] 200 GET / (127.0.0.1) 338.02ms
+[I 191023 10:14:27 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 2.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 4.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/css/ihome/search.css (127.0.0.1) 5.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 7.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 3.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 5.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 6.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/js/template.js (127.0.0.1) 8.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/js/ihome/search.js (127.0.0.1) 3.00ms
+[I 191023 10:14:27 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 3.00ms
+[W 191023 10:14:27 web:2246] 404 GET /api/house/area (127.0.0.1) 1.00ms
+[D 191023 10:18:32 selector_events:54] Using selector: SelectSelector
+[I 191023 10:18:51 web:2246] 200 GET / (127.0.0.1) 281.02ms
+[I 191023 10:18:52 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 5.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 6.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 7.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 3.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 5.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 6.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/css/ihome/search.css (127.0.0.1) 7.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/js/template.js (127.0.0.1) 2.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/js/ihome/search.js (127.0.0.1) 2.00ms
+[I 191023 10:18:52 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 5.00ms
+[W 191023 10:18:52 web:2246] 404 GET /api/house/area (127.0.0.1) 1.00ms
+[W 191023 10:18:59 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 2.00ms
+[W 191023 10:19:01 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 1.00ms
+[W 191023 10:19:03 web:2246] 404 GET /api/house/list2?aid=&sd=&ed=&sk=new&p=1 (127.0.0.1) 1.00ms
+[D 191023 11:53:02 selector_events:54] Using selector: SelectSelector
+[I 191023 11:53:43 web:2246] 200 GET / (127.0.0.1) 3629.21ms
+[I 191023 11:53:43 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 71.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 14.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 15.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 37.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 38.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/css/ihome/search.css (127.0.0.1) 49.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 78.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 21.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 32.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 46.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/js/template.js (127.0.0.1) 62.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/js/ihome/search.js (127.0.0.1) 75.00ms
+[I 191023 11:53:43 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 17.00ms
+[W 191023 11:53:43 web:2246] 404 GET /api/house/area (127.0.0.1) 2.00ms
+[D 191023 11:54:44 selector_events:54] Using selector: SelectSelector
+[I 191023 11:54:50 web:2246] 200 GET / (127.0.0.1) 493.03ms
+[I 191023 11:54:51 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 4.00ms
+[W 191023 11:54:57 web:1782] 403 POST /api/tj (127.0.0.1): '_xsrf' argument missing from POST
+[W 191023 11:54:57 web:2246] 403 POST /api/tj (127.0.0.1) 1.00ms
+[W 191023 11:55:01 web:1782] 403 POST /api/tj (127.0.0.1): '_xsrf' argument missing from POST
+[W 191023 11:55:01 web:2246] 403 POST /api/tj (127.0.0.1) 1.00ms
+[W 191023 12:27:52 web:1782] 403 POST /api/tj (127.0.0.1): '_xsrf' argument missing from POST
+[W 191023 12:27:52 web:2246] 403 POST /api/tj (127.0.0.1) 1.00ms
+[I 191023 12:37:44 web:2246] 304 GET / (127.0.0.1) 5.00ms
+[W 191023 12:37:47 web:1782] 403 POST /api/tj (127.0.0.1): '_xsrf' argument missing from POST
+[W 191023 12:37:47 web:2246] 403 POST /api/tj (127.0.0.1) 1.00ms
+[I 191023 12:39:21 web:2246] 304 GET / (127.0.0.1) 2.00ms
+[W 191023 12:39:23 web:1782] 403 POST /api/tj (127.0.0.1): '_xsrf' argument missing from POST
+[W 191023 12:39:23 web:2246] 403 POST /api/tj (127.0.0.1) 1.00ms
+[D 191023 12:41:00 selector_events:54] Using selector: SelectSelector
+[I 191023 12:41:03 web:2246] 200 GET / (127.0.0.1) 265.02ms
+[I 191023 12:41:05 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[I 191023 12:42:02 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[I 191023 12:42:03 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[I 191023 12:42:09 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[I 191023 12:42:13 web:2246] 304 GET / (127.0.0.1) 1.00ms
+[I 191023 12:42:15 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[D 191023 12:42:31 selector_events:54] Using selector: SelectSelector
+[I 191023 12:42:42 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[D 191023 12:43:13 selector_events:54] Using selector: SelectSelector
+[I 191023 12:43:35 web:2246] 200 GET / (127.0.0.1) 259.01ms
+[I 191023 12:43:45 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[I 191023 12:45:25 web:2246] 200 POST /api/tj (127.0.0.1) 2.00ms
+[I 191023 12:45:28 web:2246] 200 POST /api/tj (127.0.0.1) 0.00ms
+[D 191023 14:03:59 selector_events:54] Using selector: SelectSelector
+[I 191023 14:04:13 web:2246] 200 GET / (127.0.0.1) 2729.16ms
+[I 191023 14:04:17 web:2246] 200 POST /api/tj (127.0.0.1) 67.00ms
+[I 191023 14:10:02 web:2246] 304 GET / (127.0.0.1) 2.00ms
+[I 191023 14:10:04 web:2246] 304 GET / (127.0.0.1) 1.00ms
+[I 191023 14:10:04 web:2246] 304 GET / (127.0.0.1) 1.00ms
+[I 191023 14:10:05 web:2246] 200 POST /api/tj (127.0.0.1) 1.00ms
+[D 191023 14:10:56 selector_events:54] Using selector: SelectSelector
+[D 191023 14:11:04 selector_events:54] Using selector: SelectSelector
+[I 191023 14:11:17 web:2246] 304 GET / (127.0.0.1) 264.01ms
+[I 191023 14:11:20 web:2246] 200 POST /api/tj (127.0.0.1) 3.00ms
+[D 191023 14:12:58 selector_events:54] Using selector: SelectSelector
+[I 191023 14:14:02 web:2246] 200 GET / (127.0.0.1) 258.01ms
+[I 191023 14:14:07 web:2246] 200 POST /api/tj (127.0.0.1) 2.00ms
+[D 191023 14:14:51 selector_events:54] Using selector: SelectSelector
+[I 191023 14:14:57 web:2246] 304 GET / (127.0.0.1) 276.02ms
+[I 191023 14:14:59 web:2246] 200 POST /api/tj (127.0.0.1) 2.00ms
+[D 191023 14:25:51 selector_events:54] Using selector: SelectSelector
+[I 191023 14:26:19 web:2246] 304 GET / (127.0.0.1) 270.02ms
+[E 191023 14:26:21 web:1788] Uncaught exception POST /api/tj (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/tj', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 19, in post
+        self.render("2.html")
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1005, in render_string
+        return t.generate(**namespace)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\template.py", line 361, in generate
+        return execute()
+      File "2_html.generated.py", line 5, in _tt_execute
+        _tt_tmp = database  # 2.html:9
+    NameError: name 'database' is not defined
+[E 191023 14:26:21 web:2246] 500 POST /api/tj (127.0.0.1) 80.00ms
+[D 191023 14:29:54 selector_events:54] Using selector: SelectSelector
+[I 191023 14:30:05 web:2246] 304 GET / (127.0.0.1) 254.01ms
+[I 191023 14:30:07 web:2246] 200 POST /api/tj (127.0.0.1) 3.00ms
+[D 191023 14:30:46 selector_events:54] Using selector: SelectSelector
+[I 191023 14:30:52 web:2246] 200 POST /api/tj (127.0.0.1) 3.00ms
+[D 191023 14:37:08 selector_events:54] Using selector: SelectSelector
+[I 191023 14:37:20 web:2246] 304 GET / (127.0.0.1) 255.01ms
+[I 191023 14:37:22 web:2246] 200 POST /api/tj (127.0.0.1) 2.00ms
+[D 191023 14:40:52 selector_events:54] Using selector: SelectSelector
+[I 191023 14:41:01 web:2246] 200 POST /api/tj (127.0.0.1) 5.00ms
+[I 191023 15:00:18 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 15:00:18 selector_events:54] Using selector: SelectSelector
+[I 191023 15:08:28 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 15:23:46 selector_events:54] Using selector: SelectSelector
+[I 191023 15:23:56 web:2246] 304 GET / (127.0.0.1) 273.02ms
+[E 191023 15:24:20 web:1788] Uncaught exception POST /api/tj (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/tj', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 36, in post
+        self.render("2.html", **data)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1005, in render_string
+        return t.generate(**namespace)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\template.py", line 361, in generate
+        return execute()
+      File "2_html.generated.py", line 17, in _tt_execute
+        _tt_tmp = files_number  # 2.html:15
+    NameError: name 'files_number' is not defined
+[E 191023 15:24:20 web:2246] 500 POST /api/tj (127.0.0.1) 20378.17ms
+[D 191023 15:25:18 selector_events:54] Using selector: SelectSelector
+[I 191023 15:25:22 web:2246] 304 GET / (127.0.0.1) 271.02ms
+[I 191023 15:25:25 web:2246] 304 GET / (127.0.0.1) 1.00ms
+[I 191023 15:25:48 web:2246] 200 POST /api/tj (127.0.0.1) 20760.19ms
+[D 191023 15:32:27 selector_events:54] Using selector: SelectSelector
+[I 191023 15:32:50 web:2246] 200 GET / (127.0.0.1) 264.02ms
+[I 191023 15:33:14 web:2246] 200 POST /api/tj (127.0.0.1) 21599.24ms
+[D 191023 15:34:53 selector_events:54] Using selector: SelectSelector
+[I 191023 15:35:29 web:2246] 200 POST /api/tj (127.0.0.1) 19684.13ms
+[I 191023 15:47:49 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 15:47:50 selector_events:54] Using selector: SelectSelector
+[I 191023 15:49:38 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 15:49:39 selector_events:54] Using selector: SelectSelector
+[I 191023 16:09:48 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:09:49 selector_events:54] Using selector: SelectSelector
+[I 191023 16:14:15 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:14:16 selector_events:54] Using selector: SelectSelector
+[I 191023 16:29:14 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:29:15 selector_events:54] Using selector: SelectSelector
+[I 191023 16:31:17 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:31:18 selector_events:54] Using selector: SelectSelector
+[I 191023 16:33:29 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:33:30 selector_events:54] Using selector: SelectSelector
+[I 191023 16:37:34 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:37:34 selector_events:54] Using selector: SelectSelector
+[I 191023 16:38:08 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:38:09 selector_events:54] Using selector: SelectSelector
+[I 191023 16:40:04 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:40:05 selector_events:54] Using selector: SelectSelector
+[I 191023 16:43:51 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:43:51 selector_events:54] Using selector: SelectSelector
+[I 191023 16:49:07 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 16:49:07 selector_events:54] Using selector: SelectSelector
+[D 191023 16:54:11 selector_events:54] Using selector: SelectSelector
+[D 191023 16:54:36 selector_events:54] Using selector: SelectSelector
+[D 191023 16:55:29 selector_events:54] Using selector: SelectSelector
+[D 191023 17:00:57 selector_events:54] Using selector: SelectSelector
+[D 191023 17:08:33 selector_events:54] Using selector: SelectSelector
+[I 191023 17:09:06 web:2246] 200 GET / (127.0.0.1) 3219.18ms
+[E 191023 17:09:27 web:1788] Uncaught exception POST /api/tj (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/tj', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 23, in post
+        cur.execute(sql)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\cursors.py", line 170, in execute
+        result = self._query(query)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\cursors.py", line 328, in _query
+        conn.query(q)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\connections.py", line 517, in query
+        self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+        result.read()
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\connections.py", line 1075, in read
+        first_packet = self.connection._read_packet()
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+        packet.check_error()
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+        err.raise_mysql_exception(self._data)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+        raise errorclass(errno, errval)
+    pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5) from client1' at line 1")
+[E 191023 17:09:27 web:2246] 500 POST /api/tj (127.0.0.1) 19891.14ms
+[I 191023 17:11:58 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 17:11:59 selector_events:54] Using selector: SelectSelector
+[I 191023 17:14:02 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 17:14:02 selector_events:54] Using selector: SelectSelector
+[D 191023 17:14:03 selector_events:54] Using selector: SelectSelector
+[I 191023 17:14:56 web:2246] 200 POST /api/tj (127.0.0.1) 41037.35ms
+[D 191023 17:16:29 selector_events:54] Using selector: SelectSelector
+[I 191023 17:16:34 web:2246] 304 GET / (127.0.0.1) 253.01ms
+[I 191023 17:17:17 web:2246] 200 POST /api/tj (127.0.0.1) 41329.36ms
+[D 191023 17:18:14 selector_events:54] Using selector: SelectSelector
+[I 191023 17:18:17 web:2246] 304 GET / (127.0.0.1) 259.01ms
+[I 191023 17:19:00 web:2246] 200 POST /api/tj (127.0.0.1) 41655.38ms
+[D 191023 17:28:32 selector_events:54] Using selector: SelectSelector
+[I 191023 17:29:25 web:2246] 200 POST /api/tj (127.0.0.1) 42817.45ms
+[I 191023 17:29:34 web:2246] 200 GET /api/list (127.0.0.1) 1.00ms
+[D 191023 17:33:01 selector_events:54] Using selector: SelectSelector
+[I 191023 17:33:53 web:2246] 200 POST /api/tj (127.0.0.1) 40046.29ms
+[I 191023 17:34:10 web:2246] 304 GET /api/list (127.0.0.1) 1.00ms
+[D 191023 18:21:39 selector_events:54] Using selector: SelectSelector
+[I 191023 18:21:51 web:2246] 304 GET / (127.0.0.1) 237.01ms
+[I 191023 18:22:35 web:2246] 200 POST /api/tj (127.0.0.1) 40679.33ms
+[E 191023 18:22:53 web:1788] Uncaught exception GET /api/list (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 80, in get
+        self.render("3.html")
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1005, in render_string
+        return t.generate(**namespace)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\template.py", line 361, in generate
+        return execute()
+      File "3_html.generated.py", line 5, in _tt_execute
+        _tt_tmp = database  # 3.html:9
+    NameError: name 'database' is not defined
+[E 191023 18:22:53 web:2246] 500 GET /api/list (127.0.0.1) 71.00ms
+[I 191023 18:24:06 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 18:24:07 selector_events:54] Using selector: SelectSelector
+[E 191023 18:24:08 web:1788] Uncaught exception GET /api/list (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 72, in get
+        print(files_list)
+    OSError: [Errno 22] Invalid argument
+[E 191023 18:24:08 web:2246] 500 GET /api/list (127.0.0.1) 78.00ms
+[E 191023 18:24:14 web:1788] Uncaught exception GET /api/list (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 72, in get
+        print(files_list)
+    OSError: [Errno 22] Invalid argument
+[E 191023 18:24:14 web:2246] 500 GET /api/list (127.0.0.1) 84.00ms
+[D 191023 18:24:28 selector_events:54] Using selector: SelectSelector
+[D 191023 18:25:33 selector_events:54] Using selector: SelectSelector
+[I 191023 18:25:43 web:2246] 200 GET /api/list (127.0.0.1) 37.00ms
+[D 191023 18:36:45 selector_events:54] Using selector: SelectSelector
+[I 191023 18:36:51 web:2246] 200 GET /api/list (127.0.0.1) 40.00ms
+[I 191023 18:40:54 web:2246] 200 POST /api/tj (127.0.0.1) 40223.30ms
+[I 191023 18:41:01 web:2246] 304 GET /api/list (127.0.0.1) 55.00ms
+[I 191023 18:58:46 autoreload:202] D:\wenjiantongji\wenjiantongji\urls.py modified; restarting server
+[D 191023 19:22:41 selector_events:54] Using selector: SelectSelector
+[E 191023 19:22:44 web:1788] Uncaught exception GET /api/list/1/8000 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/1/8000', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 177, in get
+        page_obj = Pagination(page, number)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 66, in __init__
+        all_page, c = divmod(page_item, 5)
+    TypeError: unsupported operand type(s) for divmod(): 'str' and 'int'
+[E 191023 19:22:44 web:2246] 500 GET /api/list/1/8000 (127.0.0.1) 265.02ms
+[D 191023 19:37:19 selector_events:54] Using selector: SelectSelector
+[E 191023 19:37:37 web:1788] Uncaught exception GET /api/list/8000/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8000/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 177, in get
+        page_obj = Pagination(str(page), number)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 66, in __init__
+        all_page, c = divmod(page_item, 5)
+    TypeError: unsupported operand type(s) for divmod(): 'str' and 'int'
+[E 191023 19:37:37 web:2246] 500 GET /api/list/8000/1 (127.0.0.1) 60.00ms
+[D 191023 19:44:21 selector_events:54] Using selector: SelectSelector
+[E 191023 19:44:28 web:1788] Uncaught exception GET /api/list/8000/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8000/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 179, in get
+        page_obj = Pagination(str(page), number)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 66, in __init__
+        all_page, c = divmod(page_item, 5)
+    TypeError: unsupported operand type(s) for divmod(): 'str' and 'int'
+[E 191023 19:44:28 web:2246] 500 GET /api/list/8000/1 (127.0.0.1) 50.00ms
+[D 191023 19:48:25 selector_events:54] Using selector: SelectSelector
+[E 191023 19:48:30 web:1788] Uncaught exception GET /api/list/8000/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8000/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 179, in get
+        page_obj = Pagination(str(page), number)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 66, in __init__
+        all_page, c = divmod(page_item, 5)
+    TypeError: unsupported operand type(s) for divmod(): 'str' and 'int'
+[E 191023 19:48:30 web:2246] 500 GET /api/list/8000/1 (127.0.0.1) 74.00ms
+[I 191023 19:49:42 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191023 19:49:43 selector_events:54] Using selector: SelectSelector
+[D 191023 19:49:43 selector_events:54] Using selector: SelectSelector
+[D 191023 19:49:51 selector_events:54] Using selector: SelectSelector
+[E 191023 19:49:55 web:1788] Uncaught exception GET /api/list/8000/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8000/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 181, in get
+        url = '/api/list/%d/'%(number,)
+    TypeError: %d format: a number is required, not str
+[E 191023 19:49:55 web:2246] 500 GET /api/list/8000/1 (127.0.0.1) 16.00ms
+[D 191023 19:51:59 selector_events:54] Using selector: SelectSelector
+[E 191023 19:52:03 web:1788] Uncaught exception GET /api/list/8000/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8000/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 187, in get
+        str_page=str_page)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1005, in render_string
+        return t.generate(**namespace)
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\template.py", line 361, in generate
+        return execute()
+      File "3_html.generated.py", line 5, in _tt_execute
+        _tt_tmp = database  # 3.html:21
+    NameError: name 'database' is not defined
+[E 191023 19:52:03 web:2246] 500 GET /api/list/8000/1 (127.0.0.1) 117.01ms
+[D 191023 19:54:29 selector_events:54] Using selector: SelectSelector
+[W 191023 19:54:44 web:2246] 404 GET /api/list (127.0.0.1) 23.00ms
+[I 191023 19:55:00 web:2246] 200 GET /api/list/8000/1 (127.0.0.1) 18.00ms
+[I 191023 19:55:06 web:2246] 200 GET /api/list/8000/2 (127.0.0.1) 72.00ms
+[I 191023 19:55:08 web:2246] 200 GET /api/list/8000/3 (127.0.0.1) 15.00ms
+[I 191023 19:55:09 web:2246] 200 GET /api/list/8000/4 (127.0.0.1) 64.00ms
+[I 191023 19:55:10 web:2246] 200 GET /api/list/8000/5 (127.0.0.1) 10.00ms
+[I 191023 19:55:12 web:2246] 304 GET /api/list/8000/1 (127.0.0.1) 16.00ms
+[D 191023 19:59:28 selector_events:54] Using selector: SelectSelector
+[I 191023 19:59:43 web:2246] 200 GET /api/list/8000/1 (127.0.0.1) 47.00ms
+[I 191023 19:59:46 web:2246] 200 GET /api/list/8000/2 (127.0.0.1) 72.00ms
+[I 191023 19:59:48 web:2246] 200 GET /api/list/8000/3 (127.0.0.1) 7.00ms
+[I 191023 19:59:50 web:2246] 200 GET /api/list/8000/4 (127.0.0.1) 29.00ms
+[I 191023 19:59:52 web:2246] 200 GET /api/list/8000/5 (127.0.0.1) 7.00ms
+[I 191023 19:59:58 web:2246] 200 GET /api/list/8000/6 (127.0.0.1) 91.01ms
+[I 191023 20:00:00 web:2246] 200 GET /api/list/8000/7 (127.0.0.1) 10.00ms
+[I 191023 20:00:05 web:2246] 304 GET /api/list/8000/6 (127.0.0.1) 133.01ms
+[I 191023 20:00:07 web:2246] 304 GET /api/list/8000/5 (127.0.0.1) 7.00ms
+[I 191023 20:00:09 web:2246] 304 GET /api/list/8000/4 (127.0.0.1) 185.01ms
+[I 191023 20:00:11 web:2246] 304 GET /api/list/8000/3 (127.0.0.1) 7.00ms
+[I 191023 20:00:13 web:2246] 304 GET /api/list/8000/2 (127.0.0.1) 9.00ms
+[I 191023 20:00:14 web:2246] 304 GET /api/list/8000/1 (127.0.0.1) 18.00ms
+[I 191023 20:02:41 web:2246] 304 GET /api/list/8000/2 (127.0.0.1) 86.00ms
+[I 191023 20:02:46 web:2246] 304 GET /api/list/8000/3 (127.0.0.1) 6.00ms
+[I 191023 20:02:48 web:2246] 304 GET /api/list/8000/2 (127.0.0.1) 23.00ms
+[D 191023 20:06:03 selector_events:54] Using selector: SelectSelector
+[I 191023 20:06:10 web:2246] 200 GET /api/list/8000/2 (127.0.0.1) 37.00ms
+[I 191023 20:06:12 web:2246] 200 GET /api/list/8000/3 (127.0.0.1) 11.00ms
+[I 191023 20:06:14 web:2246] 200 GET /api/list/8000/4 (127.0.0.1) 73.00ms
+[I 191023 20:06:15 web:2246] 200 GET /api/list/8000/5 (127.0.0.1) 7.00ms
+[I 191023 20:06:16 web:2246] 200 GET /api/list/8000/6 (127.0.0.1) 17.00ms
+[I 191023 20:06:17 web:2246] 200 GET /api/list/8000/7 (127.0.0.1) 11.00ms
+[I 191023 20:06:18 web:2246] 200 GET /api/list/8000/9 (127.0.0.1) 19.00ms
+[I 191023 20:06:19 web:2246] 200 GET /api/list/8000/10 (127.0.0.1) 25.00ms
+[I 191023 20:06:20 web:2246] 200 GET /api/list/8000/11 (127.0.0.1) 71.00ms
+[I 191023 20:06:22 web:2246] 200 GET /api/list/8000/12 (127.0.0.1) 74.00ms
+[I 191023 20:06:23 web:2246] 200 GET /api/list/8000/13 (127.0.0.1) 18.00ms
+[I 191023 20:06:24 web:2246] 200 GET /api/list/8000/14 (127.0.0.1) 21.00ms
+[I 191023 20:06:25 web:2246] 200 GET /api/list/8000/15 (127.0.0.1) 85.00ms
+[I 191023 20:06:26 web:2246] 200 GET /api/list/8000/16 (127.0.0.1) 7.00ms
+[I 191023 20:06:27 web:2246] 200 GET /api/list/8000/17 (127.0.0.1) 19.00ms
+[I 191023 20:06:27 web:2246] 200 GET /api/list/8000/18 (127.0.0.1) 16.00ms
+[I 191023 20:06:28 web:2246] 200 GET /api/list/8000/19 (127.0.0.1) 17.00ms
+[I 191023 20:06:28 web:2246] 200 GET /api/list/8000/20 (127.0.0.1) 19.00ms
+[I 191023 20:06:29 web:2246] 200 GET /api/list/8000/21 (127.0.0.1) 96.01ms
+[I 191023 20:06:29 web:2246] 200 GET /api/list/8000/22 (127.0.0.1) 6.00ms
+[I 191023 20:06:30 web:2246] 200 GET /api/list/8000/23 (127.0.0.1) 144.01ms
+[I 191023 20:06:30 web:2246] 200 GET /api/list/8000/24 (127.0.0.1) 6.00ms
+[I 191023 20:06:31 web:2246] 200 GET /api/list/8000/25 (127.0.0.1) 112.01ms
+[I 191023 20:06:31 web:2246] 200 GET /api/list/8000/26 (127.0.0.1) 19.00ms
+[I 191023 20:06:32 web:2246] 200 GET /api/list/8000/27 (127.0.0.1) 70.00ms
+[I 191023 20:06:33 web:2246] 200 GET /api/list/8000/28 (127.0.0.1) 6.00ms
+[I 191023 20:06:33 web:2246] 200 GET /api/list/8000/29 (127.0.0.1) 131.01ms
+[D 191024 09:55:43 selector_events:54] Using selector: SelectSelector
+[I 191024 09:55:56 web:2246] 200 GET / (127.0.0.1) 6313.36ms
+[I 191024 09:55:56 web:2246] 200 GET / (127.0.0.1) 2.00ms
+[I 191024 09:55:57 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 3.00ms
+[W 191024 09:55:57 web:2246] 404 GET /favicon.ico (127.0.0.1) 19.00ms
+[I 191024 09:57:00 web:2246] 200 POST /api/tj (127.0.0.1) 48308.76ms
+[I 191024 09:57:43 web:2246] 200 POST /api/tj (127.0.0.1) 43672.50ms
+[I 191024 09:58:27 web:2246] 200 POST /api/tj (127.0.0.1) 43317.48ms
+[I 191024 09:59:09 web:2246] 200 POST /api/tj (127.0.0.1) 42397.43ms
+[I 191024 09:59:09 web:2246] 304 GET / (127.0.0.1) 2.00ms
+[D 191024 09:59:15 selector_events:54] Using selector: SelectSelector
+[I 191024 09:59:21 web:2246] 200 GET / (127.0.0.1) 236.01ms
+[I 191024 10:00:25 web:2246] 200 POST /api/tj (127.0.0.1) 46513.66ms
+[D 191024 10:17:41 selector_events:54] Using selector: SelectSelector
+[I 191024 10:17:46 web:2246] 200 GET / (127.0.0.1) 247.01ms
+[D 191024 10:20:00 selector_events:54] Using selector: SelectSelector
+[I 191024 10:20:03 web:2246] 200 GET / (127.0.0.1) 250.01ms
+[D 191024 10:21:28 selector_events:54] Using selector: SelectSelector
+[I 191024 10:21:30 web:2246] 200 GET / (127.0.0.1) 265.02ms
+[D 191024 10:22:37 selector_events:54] Using selector: SelectSelector
+[I 191024 10:22:42 web:2246] 200 GET / (127.0.0.1) 256.01ms
+[D 191024 10:23:56 selector_events:54] Using selector: SelectSelector
+[I 191024 10:23:58 web:2246] 200 GET / (127.0.0.1) 254.01ms
+[D 191024 10:26:25 selector_events:54] Using selector: SelectSelector
+[I 191024 10:26:29 web:2246] 200 GET / (127.0.0.1) 238.01ms
+[D 191024 10:27:58 selector_events:54] Using selector: SelectSelector
+[I 191024 10:28:01 web:2246] 200 GET / (127.0.0.1) 245.01ms
+[I 191024 10:29:13 web:2246] 200 POST /api/tj (127.0.0.1) 46602.67ms
+[W 191024 10:29:24 web:2246] 404 GET /api/list (127.0.0.1) 2.00ms
+[D 191024 10:32:54 selector_events:54] Using selector: SelectSelector
+[I 191024 10:33:01 web:2246] 200 GET / (127.0.0.1) 303.02ms
+[I 191024 10:34:00 web:2246] 200 POST /api/tj (127.0.0.1) 46462.66ms
+[D 191024 10:48:59 selector_events:54] Using selector: SelectSelector
+[I 191024 10:49:06 web:2246] 200 GET / (127.0.0.1) 278.02ms
+[I 191024 10:49:58 web:2246] 200 POST /api/tj (127.0.0.1) 44986.57ms
+[I 191024 10:51:56 web:2246] 200 POST /api/tj (127.0.0.1) 43392.48ms
+[D 191024 11:50:00 selector_events:54] Using selector: SelectSelector
+[I 191024 11:50:09 web:2246] 200 GET / (127.0.0.1) 347.02ms
+[I 191024 11:51:03 web:2246] 200 POST /api/tj (127.0.0.1) 45034.58ms
+[I 191024 11:51:46 web:2246] 304 GET / (127.0.0.1) 1.00ms
+[I 191024 11:52:35 web:2246] 200 POST /api/tj (127.0.0.1) 44036.52ms
+[I 191024 11:53:22 web:2246] 200 POST /api/tj (127.0.0.1) 46837.68ms
+[D 191024 11:53:30 selector_events:54] Using selector: SelectSelector
+[I 191024 11:53:32 web:2246] 200 GET / (127.0.0.1) 254.01ms
+[I 191024 11:54:39 web:2246] 200 POST /api/tj (127.0.0.1) 46895.68ms
+[I 191024 11:55:21 web:2246] 200 POST /api/tj (127.0.0.1) 41593.38ms
+[I 191024 11:56:02 web:2246] 200 POST /api/tj (127.0.0.1) 82669.73ms
+[D 191024 12:56:00 selector_events:54] Using selector: SelectSelector
+[I 191024 12:56:06 web:2246] 200 GET / (127.0.0.1) 411.02ms
+[I 191024 12:56:58 web:2246] 200 POST /api/tj (127.0.0.1) 45201.59ms
+[D 191024 12:58:26 selector_events:54] Using selector: SelectSelector
+[I 191024 12:58:29 web:2246] 200 GET / (127.0.0.1) 251.01ms
+[I 191024 12:58:29 web:2246] 304 GET / (127.0.0.1) 2.00ms
+[I 191024 12:59:44 web:2246] 200 POST /api/tj (127.0.0.1) 42837.45ms
+[I 191024 13:01:19 web:2246] 200 POST /api/tj (127.0.0.1) 44550.55ms
+[D 191024 13:36:41 selector_events:54] Using selector: SelectSelector
+[I 191024 13:36:48 web:2246] 304 GET / (127.0.0.1) 241.01ms
+[I 191024 13:37:51 web:2246] 200 POST /api/tj (127.0.0.1) 52363.00ms
+[I 191024 13:38:21 web:2246] 200 GET / (127.0.0.1) 1.00ms
+[E 191024 13:39:10 web:1788] Uncaught exception POST /api/tj (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/tj', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 48, in post
+        time_start, time_end)
+    ValueError: unsupported format character 'b' (0x62) at index 20
+[E 191024 13:39:10 web:2246] 500 POST /api/tj (127.0.0.1) 99.01ms
+[D 191024 13:42:30 selector_events:54] Using selector: SelectSelector
+[I 191024 13:42:44 web:2246] 304 GET / (127.0.0.1) 250.01ms
+[I 191024 13:43:44 web:2246] 200 POST /api/tj (127.0.0.1) 44523.55ms
+[D 191024 13:55:29 selector_events:54] Using selector: SelectSelector
+[I 191024 13:55:32 web:2246] 304 GET / (127.0.0.1) 277.02ms
+[I 191024 13:56:35 web:2246] 200 POST /api/tj (127.0.0.1) 44221.53ms
+[D 191024 14:15:33 selector_events:54] Using selector: SelectSelector
+[I 191024 14:15:47 web:2246] 304 GET / (127.0.0.1) 517.03ms
+[I 191024 14:17:07 web:2246] 200 POST /api/tj (127.0.0.1) 55009.15ms
+[D 191024 14:18:55 selector_events:54] Using selector: SelectSelector
+[I 191024 14:20:04 web:2246] 200 POST /api/tj (127.0.0.1) 43700.50ms
+[D 191024 14:22:12 selector_events:54] Using selector: SelectSelector
+[I 191024 14:22:18 web:2246] 304 GET / (127.0.0.1) 260.02ms
+[E 191024 14:22:48 web:1788] Uncaught exception POST /api/tj (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/tj', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 50, in post
+        files_number = cur.fetchone()[0]  # 文件总数
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\cursors.py", line 282, in fetchone
+        self._check_executed()
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\pymysql\cursors.py", line 78, in _check_executed
+        raise err.ProgrammingError("execute() first")
+    pymysql.err.ProgrammingError: execute() first
+[E 191024 14:22:48 web:2246] 500 POST /api/tj (127.0.0.1) 16.00ms
+[D 191024 14:36:51 selector_events:54] Using selector: SelectSelector
+[I 191024 14:37:04 web:2246] 304 GET / (127.0.0.1) 311.02ms
+[I 191024 14:38:01 web:2246] 200 POST /api/tj (127.0.0.1) 45709.61ms
+[D 191024 14:44:23 selector_events:54] Using selector: SelectSelector
+[I 191024 14:44:33 web:2246] 304 GET / (127.0.0.1) 265.02ms
+[I 191024 14:46:11 web:2246] 200 POST /api/tj (127.0.0.1) 87004.98ms
+[D 191024 14:57:12 selector_events:54] Using selector: SelectSelector
+[I 191024 14:58:26 web:2246] 200 POST /api/tj (127.0.0.1) 44421.54ms
+[W 191024 14:58:56 web:2246] 404 GET /api/list/master1_client12272397_2017-08-01_2019-10-15/1_ (127.0.0.1) 2.00ms
+[D 191024 15:01:39 selector_events:54] Using selector: SelectSelector
+[I 191024 15:01:48 web:2246] 304 GET / (127.0.0.1) 280.02ms
+[I 191024 15:02:34 web:2246] 200 POST /api/tj (127.0.0.1) 43135.47ms
+[E 191024 15:02:40 web:1788] Uncaught exception GET /api/list/master1_client18205120_--_--/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/master1_client18205120_--_--/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+    TypeError: get() got an unexpected keyword argument 'tiaojian'
+[E 191024 15:02:40 web:2246] 500 GET /api/list/master1_client18205120_--_--/1 (127.0.0.1) 3.00ms
+[D 191024 15:04:30 selector_events:54] Using selector: SelectSelector
+[I 191024 15:04:30 web:2246] 200 GET /api/list/master1_client18205120_--_--/1 (127.0.0.1) 44.00ms
+[I 191024 15:04:34 web:2246] 304 GET /api/list/master1_client18205120_--_--/1 (127.0.0.1) 18.00ms
+[I 191024 15:04:35 web:2246] 304 GET /api/list/master1_client18205120_--_--/1 (127.0.0.1) 18.00ms
+[I 191024 15:04:36 web:2246] 304 GET /api/list/master1_client18205120_--_--/1 (127.0.0.1) 6.00ms
+[I 191024 15:06:24 web:2246] 304 GET /api/list/master1_client18205120_--_--/1 (127.0.0.1) 16.00ms
+[D 191024 15:12:58 selector_events:54] Using selector: SelectSelector
+[I 191024 15:13:08 web:2246] 304 GET / (127.0.0.1) 296.02ms
+[I 191024 15:13:57 web:2246] 200 POST /api/tj (127.0.0.1) 43475.49ms
+[I 191024 15:14:01 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/1 (127.0.0.1) 7.00ms
+[E 191024 15:14:10 web:1788] Uncaught exception GET /api/list/8205120/2 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8205120/2', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 193, in get
+        database, table, number, time_start, time_end = tiaojian.split("_")
+    ValueError: not enough values to unpack (expected 5, got 1)
+[E 191024 15:14:10 web:2246] 500 GET /api/list/8205120/2 (127.0.0.1) 4.00ms
+[E 191024 15:14:44 web:1788] Uncaught exception GET /api/list/8205120/2 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8205120/2', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 193, in get
+        database, table, number, time_start, time_end = tiaojian.split("_")
+    ValueError: not enough values to unpack (expected 5, got 1)
+[E 191024 15:14:44 web:2246] 500 GET /api/list/8205120/2 (127.0.0.1) 2.00ms
+[E 191024 15:15:11 web:1788] Uncaught exception GET /api/list/8205120/3 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/8205120/3', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 193, in get
+        database, table, number, time_start, time_end = tiaojian.split("_")
+    ValueError: not enough values to unpack (expected 5, got 1)
+[E 191024 15:15:11 web:2246] 500 GET /api/list/8205120/3 (127.0.0.1) 1.00ms
+[D 191024 15:16:30 selector_events:54] Using selector: SelectSelector
+[I 191024 15:17:34 web:2246] 200 POST /api/tj (127.0.0.1) 45506.60ms
+[E 191024 15:17:41 web:1788] Uncaught exception GET /api/list/master1_client1_8205120_--_--/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/master1_client1_8205120_--_--/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 216, in get
+        url = '/api/list/%d/'%(tiaojian,)
+    TypeError: %d format: a number is required, not str
+[E 191024 15:17:41 web:2246] 500 GET /api/list/master1_client1_8205120_--_--/1 (127.0.0.1) 7.00ms
+[I 191024 15:18:23 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191024 15:18:23 selector_events:54] Using selector: SelectSelector
+[I 191024 15:18:24 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/1 (127.0.0.1) 13.00ms
+[I 191024 15:18:30 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/2 (127.0.0.1) 7.00ms
+[I 191024 15:18:32 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/3 (127.0.0.1) 17.00ms
+[I 191024 15:18:33 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/4 (127.0.0.1) 6.00ms
+[I 191024 15:18:35 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/5 (127.0.0.1) 16.00ms
+[I 191024 15:18:36 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/6 (127.0.0.1) 7.00ms
+[I 191024 15:18:38 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/7 (127.0.0.1) 6.00ms
+[I 191024 15:18:39 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/8 (127.0.0.1) 8.00ms
+[I 191024 15:18:40 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/9 (127.0.0.1) 6.00ms
+[I 191024 15:18:41 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/10 (127.0.0.1) 6.00ms
+[I 191024 15:21:07 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191024 15:21:07 selector_events:54] Using selector: SelectSelector
+[D 191024 15:21:08 selector_events:54] Using selector: SelectSelector
+[I 191024 15:21:13 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/10 (127.0.0.1) 13.00ms
+[I 191024 15:21:18 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/3 (127.0.0.1) 6.00ms
+[I 191024 15:21:22 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/4 (127.0.0.1) 10.00ms
+[I 191024 15:21:25 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/6 (127.0.0.1) 7.00ms
+[I 191024 15:21:28 web:2246] 200 GET /api/list/master1_client1_8205120_--_--/1 (127.0.0.1) 6.00ms
+[D 191024 15:47:26 selector_events:54] Using selector: SelectSelector
+[I 191024 15:47:34 web:2246] 304 GET / (127.0.0.1) 400.02ms
+[I 191024 15:48:24 web:2246] 200 POST /api/tj (127.0.0.1) 42463.43ms
+[I 191024 15:49:59 web:2246] 200 POST /api/tj (127.0.0.1) 41828.39ms
+[I 191024 15:50:04 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 7.00ms
+[I 191024 15:50:18 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/2 (127.0.0.1) 8.00ms
+[I 191024 15:50:20 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/3 (127.0.0.1) 16.00ms
+[I 191024 15:50:21 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/4 (127.0.0.1) 5.00ms
+[I 191024 15:50:22 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/5 (127.0.0.1) 6.00ms
+[I 191024 15:50:24 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/6 (127.0.0.1) 18.00ms
+[I 191024 15:50:27 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/7 (127.0.0.1) 7.00ms
+[I 191024 15:50:29 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/9 (127.0.0.1) 7.00ms
+[I 191024 15:50:32 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/12 (127.0.0.1) 7.00ms
+[D 191024 15:55:47 selector_events:54] Using selector: SelectSelector
+[I 191024 15:55:52 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/12 (127.0.0.1) 11.00ms
+[I 191024 15:55:55 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/12 (127.0.0.1) 15.00ms
+[I 191024 15:56:15 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/12 (127.0.0.1) 19.00ms
+[I 191024 15:56:22 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 13.00ms
+[I 191024 15:57:05 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 10.00ms
+[I 191024 15:59:13 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 18.00ms
+[I 191024 15:59:14 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 17.00ms
+[I 191024 15:59:15 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 17.00ms
+[I 191024 15:59:15 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 16.00ms
+[I 191024 15:59:15 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 7.00ms
+[I 191024 15:59:15 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 17.00ms
+[D 191024 16:09:34 selector_events:54] Using selector: SelectSelector
+[I 191024 16:09:49 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 12.00ms
+[I 191024 16:09:53 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/2 (127.0.0.1) 16.00ms
+[I 191024 16:10:13 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/3 (127.0.0.1) 7.00ms
+[I 191024 16:10:14 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/9 (127.0.0.1) 6.00ms
+[I 191024 16:10:15 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/12 (127.0.0.1) 7.00ms
+[I 191024 16:10:16 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/15 (127.0.0.1) 16.00ms
+[I 191024 16:10:44 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/15 (127.0.0.1) 9.00ms
+[I 191024 16:10:50 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 7.00ms
+[I 191024 16:10:52 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/2 (127.0.0.1) 10.00ms
+[D 191024 16:11:21 selector_events:54] Using selector: SelectSelector
+[I 191024 16:11:38 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/2 (127.0.0.1) 16.00ms
+[D 191024 16:13:17 selector_events:54] Using selector: SelectSelector
+[I 191024 16:13:24 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 21.00ms
+[I 191024 16:13:32 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/8 (127.0.0.1) 8.00ms
+[I 191024 16:13:33 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/11 (127.0.0.1) 8.00ms
+[I 191024 16:13:34 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/14 (127.0.0.1) 16.00ms
+[I 191024 16:13:36 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/17 (127.0.0.1) 6.00ms
+[I 191024 16:13:37 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/20 (127.0.0.1) 8.00ms
+[I 191024 16:13:38 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/24 (127.0.0.1) 8.00ms
+[I 191024 16:13:39 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/28 (127.0.0.1) 7.00ms
+[I 191024 16:13:40 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/32 (127.0.0.1) 6.00ms
+[I 191024 16:13:41 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/36 (127.0.0.1) 16.00ms
+[I 191024 16:13:42 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/40 (127.0.0.1) 6.00ms
+[I 191024 16:13:43 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/44 (127.0.0.1) 16.00ms
+[I 191024 16:13:44 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/48 (127.0.0.1) 7.00ms
+[I 191024 16:13:44 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/52 (127.0.0.1) 8.00ms
+[I 191024 16:13:45 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/56 (127.0.0.1) 7.00ms
+[I 191024 16:13:45 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/60 (127.0.0.1) 7.00ms
+[I 191024 16:13:46 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/64 (127.0.0.1) 6.00ms
+[I 191024 16:13:46 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/68 (127.0.0.1) 6.00ms
+[I 191024 16:13:47 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/72 (127.0.0.1) 8.00ms
+[I 191024 16:13:47 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/76 (127.0.0.1) 6.00ms
+[I 191024 16:13:48 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/80 (127.0.0.1) 7.00ms
+[I 191024 16:13:49 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/84 (127.0.0.1) 10.00ms
+[I 191024 16:13:50 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/88 (127.0.0.1) 8.00ms
+[I 191024 16:13:50 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/92 (127.0.0.1) 7.00ms
+[I 191024 16:13:51 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/96 (127.0.0.1) 11.00ms
+[I 191024 16:13:51 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/100 (127.0.0.1) 20.00ms
+[I 191024 16:13:52 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/103 (127.0.0.1) 8.00ms
+[I 191024 16:13:54 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/106 (127.0.0.1) 7.00ms
+[D 191024 16:24:14 selector_events:54] Using selector: SelectSelector
+[I 191024 16:25:01 web:2246] 200 GET / (127.0.0.1) 293.02ms
+[I 191024 16:25:02 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 237.01ms
+[I 191024 16:25:51 web:2246] 200 POST /api/tj (127.0.0.1) 42211.41ms
+[I 191024 16:26:05 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 8.00ms
+[I 191024 16:26:09 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/2 (127.0.0.1) 6.00ms
+[I 191024 16:26:10 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/3 (127.0.0.1) 7.00ms
+[I 191024 16:26:11 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/4 (127.0.0.1) 9.00ms
+[I 191024 16:26:12 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/5 (127.0.0.1) 6.00ms
+[I 191024 16:26:13 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/6 (127.0.0.1) 6.00ms
+[I 191024 16:26:14 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/7 (127.0.0.1) 6.00ms
+[I 191024 16:26:15 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/8 (127.0.0.1) 6.00ms
+[I 191024 16:26:16 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/9 (127.0.0.1) 13.00ms
+[I 191024 16:26:17 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/10 (127.0.0.1) 16.00ms
+[I 191024 16:26:19 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/9 (127.0.0.1) 6.00ms
+[I 191024 16:26:19 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/8 (127.0.0.1) 9.00ms
+[I 191024 16:26:19 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/7 (127.0.0.1) 6.00ms
+[I 191024 16:26:20 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/6 (127.0.0.1) 6.00ms
+[I 191024 16:26:20 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/5 (127.0.0.1) 7.00ms
+[I 191024 16:26:20 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/4 (127.0.0.1) 6.00ms
+[I 191024 16:26:21 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/5 (127.0.0.1) 8.00ms
+[I 191024 16:26:21 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/6 (127.0.0.1) 6.00ms
+[I 191024 16:26:21 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/7 (127.0.0.1) 6.00ms
+[I 191024 16:26:22 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/8 (127.0.0.1) 18.00ms
+[I 191024 16:26:23 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/9 (127.0.0.1) 9.00ms
+[I 191024 16:26:24 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/10 (127.0.0.1) 7.00ms
+[I 191024 16:26:24 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/11 (127.0.0.1) 6.00ms
+[I 191024 16:26:26 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 7.00ms
+[I 191024 16:26:47 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/1641024 (127.0.0.1) 20367.16ms
+[I 191024 16:26:56 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/4 (127.0.0.1) 6.00ms
+[I 191024 16:27:00 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/6 (127.0.0.1) 6.00ms
+[I 191024 16:27:28 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 91.01ms
+[I 191024 16:27:30 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/2 (127.0.0.1) 9.00ms
+[I 191024 16:27:30 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/3 (127.0.0.1) 6.00ms
+[I 191024 16:27:32 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/7 (127.0.0.1) 6.00ms
+[I 191024 16:27:33 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/6 (127.0.0.1) 6.00ms
+[I 191024 16:27:34 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/7 (127.0.0.1) 7.00ms
+[I 191024 16:27:36 web:2246] 304 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 6.00ms
+[I 191024 16:27:37 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/24217 (127.0.0.1) 272.02ms
+[I 191024 16:27:41 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/4 (127.0.0.1) 6.00ms
+[I 191024 16:27:51 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/1 (127.0.0.1) 938.05ms
+[I 191024 16:27:58 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/2 (127.0.0.1) 929.05ms
+[I 191024 16:28:00 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/3 (127.0.0.1) 961.06ms
+[I 191024 16:28:03 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/4 (127.0.0.1) 928.05ms
+[I 191024 16:28:09 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/5 (127.0.0.1) 944.05ms
+[I 191024 16:28:11 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/6 (127.0.0.1) 952.05ms
+[I 191024 16:28:16 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/5 (127.0.0.1) 919.05ms
+[I 191024 16:28:18 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/6 (127.0.0.1) 1034.06ms
+[I 191024 16:28:21 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/1 (127.0.0.1) 936.05ms
+[I 191024 16:28:24 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/3759 (127.0.0.1) 1220.07ms
+[I 191024 16:28:28 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/4 (127.0.0.1) 951.05ms
+[I 191024 16:28:34 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/1 (127.0.0.1) 919.05ms
+[I 191024 16:29:43 web:2246] 200 POST /api/tj (127.0.0.1) 43806.51ms
+[E 191024 16:29:46 web:1788] Uncaught exception GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\Administrator\Anaconda3\envs\wjtj\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\wenjiantongji\wenjiantongji\handlers\Handler.py", line 232, in get
+        sql = "select * from %s where %s limit %d, %d"%(table, page_obj.start, sql_time, page_obj.end-page_obj.start)
+    TypeError: %d format: a number is required, not str
+[E 191024 16:29:46 web:2246] 500 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/1 (127.0.0.1) 6.00ms
+[I 191024 16:32:24 autoreload:202] D:\wenjiantongji\wenjiantongji\handlers\Handler.py modified; restarting server
+[D 191024 16:32:25 selector_events:54] Using selector: SelectSelector
+[I 191024 16:32:26 web:2246] 200 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/1 (127.0.0.1) 103.01ms
+[I 191024 16:32:30 web:2246] 200 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/2 (127.0.0.1) 17.00ms
+[I 191024 16:32:31 web:2246] 200 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/3 (127.0.0.1) 16.00ms
+[I 191024 16:32:32 web:2246] 200 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/4 (127.0.0.1) 16.00ms
+[I 191024 16:32:33 web:2246] 304 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/3 (127.0.0.1) 6.00ms
+[I 191024 16:32:34 web:2246] 304 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/1 (127.0.0.1) 17.00ms
+[I 191024 16:32:58 web:2246] 200 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/454480 (127.0.0.1) 22125.27ms
+[I 191024 16:33:02 web:2246] 304 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-01-18/3 (127.0.0.1) 15.00ms
+[I 191024 16:33:07 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/1 (127.0.0.1) 38.00ms
+[I 191024 16:33:09 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/4 (127.0.0.1) 16.00ms
+[I 191024 16:33:10 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/9 (127.0.0.1) 19.00ms
+[I 191024 16:33:11 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/13 (127.0.0.1) 18.00ms
+[I 191024 16:33:13 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/17 (127.0.0.1) 15.00ms
+[I 191024 16:33:14 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/18 (127.0.0.1) 7.00ms
+[I 191024 16:33:16 web:2246] 304 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/17 (127.0.0.1) 16.00ms
+[I 191024 16:33:18 web:2246] 304 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/1 (127.0.0.1) 8.00ms
+[I 191024 16:33:19 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/6097 (127.0.0.1) 357.02ms
+[I 191024 16:33:27 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-01-18/5 (127.0.0.1) 17.00ms
+[I 191024 16:33:35 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/1 (127.0.0.1) 941.05ms
+[I 191024 16:33:39 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/2 (127.0.0.1) 940.05ms
+[I 191024 16:33:40 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/3 (127.0.0.1) 930.05ms
+[I 191024 16:33:43 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/9 (127.0.0.1) 916.05ms
+[I 191024 16:33:45 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/13 (127.0.0.1) 924.05ms
+[I 191024 16:33:48 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/12 (127.0.0.1) 926.05ms
+[I 191024 16:33:51 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/13 (127.0.0.1) 1047.06ms
+[I 191024 16:33:53 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/1 (127.0.0.1) 937.05ms
+[I 191024 16:33:56 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/1327 (127.0.0.1) 1204.07ms
+[I 191024 16:34:00 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-01-18/5 (127.0.0.1) 943.05ms
+[D 191024 16:42:44 selector_events:54] Using selector: SelectSelector
+[D 191024 16:43:20 selector_events:54] Using selector: SelectSelector
+[I 191024 16:43:27 web:2246] 200 GET / (127.0.0.1) 294.02ms
+[I 191024 16:43:29 web:2246] 304 GET / (127.0.0.1) 1.00ms
+[I 191024 16:43:47 web:2246] 200 GET / (127.0.0.1) 1.00ms
+[I 191024 16:43:48 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 3.00ms
+[D 191024 16:58:50 selector_events:54] Using selector: SelectSelector
+[I 191024 16:59:08 web:2246] 200 GET / (127.0.0.1) 353.02ms
+[I 191024 16:59:43 web:2246] 200 GET / (127.0.0.1) 1.00ms
+[I 191024 16:59:43 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 3.00ms
+[D 191024 17:00:18 selector_events:54] Using selector: SelectSelector
+[I 191024 17:00:30 web:2246] 200 GET / (127.0.0.1) 240.01ms
+[I 191024 17:00:30 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 4.00ms
+[D 191024 17:01:21 selector_events:54] Using selector: SelectSelector
+[I 191024 17:01:50 web:2246] 200 GET / (127.0.0.1) 266.02ms
+[I 191024 17:01:50 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 2.00ms
+[D 191024 17:06:16 selector_events:54] Using selector: SelectSelector
+[I 191024 17:06:25 web:2246] 304 GET / (127.0.0.1) 268.02ms
+[I 191024 17:07:17 web:2246] 200 POST /api/tj (127.0.0.1) 44174.53ms
+[I 191024 17:07:19 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 83.00ms
+[I 191024 17:07:20 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/3 (127.0.0.1) 7.00ms
+[I 191024 17:07:21 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/4 (127.0.0.1) 9.00ms
+[I 191024 17:08:52 web:2246] 200 POST /api/tj (127.0.0.1) 42019.40ms
+[I 191024 17:08:59 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 21.00ms
+[I 191024 17:09:01 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/5 (127.0.0.1) 16.00ms
+[I 191024 17:09:05 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/1 (127.0.0.1) 7.00ms
+[I 191024 17:09:07 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/3 (127.0.0.1) 10.00ms
+[I 191024 17:09:08 web:2246] 200 GET /api/list/duplic+master1+client1+121085+--+--/5 (127.0.0.1) 9.00ms
+[I 191024 17:09:13 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/1 (127.0.0.1) 940.05ms
+[I 191024 17:09:17 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/5 (127.0.0.1) 935.05ms
+[I 191024 17:09:19 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/6 (127.0.0.1) 938.05ms
+[I 191024 17:09:21 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/7 (127.0.0.1) 941.05ms
+[I 191024 17:09:26 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/8 (127.0.0.1) 937.05ms
+[I 191024 17:10:48 web:2246] 200 POST /api/tj (127.0.0.1) 45671.61ms
+[I 191024 17:10:49 web:2246] 200 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-02-13/1 (127.0.0.1) 8.00ms
+[I 191024 17:10:51 web:2246] 200 GET /api/list/all+master1+client1+2272396+2017-08-01+2018-02-13/5 (127.0.0.1) 16.00ms
+[I 191024 17:10:54 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-02-13/1 (127.0.0.1) 17.00ms
+[I 191024 17:10:56 web:2246] 200 GET /api/list/duplic+master1+client1+30483+2017-08-01+2018-02-13/5 (127.0.0.1) 6.00ms
+[I 191024 17:11:00 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-02-13/1 (127.0.0.1) 942.05ms
+[I 191024 17:11:02 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+6631+2017-08-01+2018-02-13/6 (127.0.0.1) 941.05ms
+[I 191024 17:12:41 web:2246] 200 POST /api/tj (127.0.0.1) 40877.34ms
+[I 191024 17:14:52 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/1 (127.0.0.1) 930.05ms
+[I 191024 17:15:01 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/2 (127.0.0.1) 932.05ms
+[I 191024 17:19:52 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/1 (127.0.0.1) 1037.06ms
+[I 191024 17:19:56 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/5 (127.0.0.1) 931.05ms
+[I 191024 17:19:59 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+18793+--+--/6 (127.0.0.1) 934.05ms
+[D 191024 18:24:03 selector_events:54] Using selector: SelectSelector
+[I 191024 18:24:12 web:2246] 304 GET / (127.0.0.1) 244.01ms
+[I 191024 18:24:59 web:2246] 200 POST /api/tj (127.0.0.1) 42882.45ms
+[I 191024 18:25:15 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 777.04ms
+[I 191024 18:25:18 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/2 (127.0.0.1) 891.05ms
+[I 191024 18:25:20 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/3 (127.0.0.1) 992.06ms
+[D 191025 09:12:41 selector_events:54] Using selector: SelectSelector
+[I 191025 09:12:51 web:2246] 304 GET / (127.0.0.1) 1094.06ms
+[W 191025 09:12:51 web:2246] 404 GET /favicon.ico (127.0.0.1) 80.00ms
+[I 191025 09:13:44 web:2246] 200 POST /api/tj (127.0.0.1) 49747.85ms
+[I 191025 09:15:05 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 28.00ms
+[I 191025 09:15:17 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/2 (127.0.0.1) 17.00ms
+[I 191025 09:15:19 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/3 (127.0.0.1) 7.00ms
+[I 191025 09:15:20 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/4 (127.0.0.1) 8.00ms
+[I 191025 09:15:21 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/5 (127.0.0.1) 7.00ms
+[I 191025 09:15:22 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/6 (127.0.0.1) 8.00ms
+[I 191025 09:15:39 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/8 (127.0.0.1) 19.00ms
+[I 191025 09:15:40 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/11 (127.0.0.1) 8.00ms
+[I 191025 09:15:41 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/14 (127.0.0.1) 17.00ms
+[I 191025 09:15:43 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/16 (127.0.0.1) 10.00ms
+[I 191025 09:15:44 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/19 (127.0.0.1) 8.00ms
+[I 191025 09:15:47 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/22 (127.0.0.1) 11.00ms
+[I 191025 09:15:50 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/23 (127.0.0.1) 8.00ms
+[I 191025 09:16:24 web:2246] 200 GET /api/list/duplic+master1+client1+101976+--+--/1 (127.0.0.1) 7.00ms
+[I 191025 09:16:31 web:2246] 200 GET /api/list/duplic+master1+client1+101976+--+--/2 (127.0.0.1) 8.00ms
+[I 191025 09:16:33 web:2246] 200 GET /api/list/duplic+master1+client1+101976+--+--/3 (127.0.0.1) 7.00ms
+[I 191025 09:16:40 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 769.04ms
+[I 191025 09:16:43 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/2 (127.0.0.1) 885.05ms
+[I 191025 09:16:45 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/3 (127.0.0.1) 995.06ms
+[I 191025 09:19:47 web:2246] 200 POST /api/tj (127.0.0.1) 43479.49ms
+[D 191025 09:50:22 selector_events:54] Using selector: SelectSelector
+[I 191025 09:51:25 web:2246] 200 POST /api/tj (127.0.0.1) 50821.91ms
+[I 191025 09:51:34 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 29.00ms
+[I 191025 09:51:36 web:2246] 304 GET /api/list/duplic+master1+client1+101976+--+--/1 (127.0.0.1) 7.00ms
+[I 191025 09:51:40 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 771.04ms
+[I 191025 09:51:47 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 757.04ms
+[I 191025 09:51:53 web:2246] 304 GET /api/list/duplic+master1+client1+101976+--+--/1 (127.0.0.1) 16.00ms
+[I 191025 09:51:57 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 18.00ms

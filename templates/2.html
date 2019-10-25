@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计数据</title>
+</head>
+<body>
+    <p>
+        <label>数据库：{{database}}</label>
+    </p>
+    <p>
+        <label>表：{{table}}</label>
+    </p>
+    <p>
+        <label>时间范围：{{time_start}}至{{time_end}}</label>
+    </p>
+    <div class="table-desc">
+        <div class="">文件数：<a href="/api/list/all+{{database}}+{{table}}+{{files_number}}+{{time_start}}+{{time_end}}/1">{{files_number}}</a></div>
+        <div class="">文件数据量：<span>{{files_size}}</span></div>
+        <div class="">重名文件数：：<a href="/api/list/duplic+{{database}}+{{table}}+{{duplicname_number}}+{{time_start}}+{{time_end}}/1">{{duplicname_number}}</a></div>
+        <div class="">重名文件数据量：：<span>{{duplicname_size}}</span></div>
+        <div class="">重名但属性不同文件数：<a href="/api/list/duplic_uniqe+{{database}}+{{table}}+{{duplicname_uniqe_number}}+{{time_start}}+{{time_end}}/1">{{duplicname_uniqe_number}}</a></div>
+        <div class="">重名但属性不同文件数据量：<span>{{duplicname_uniqe_size}}</span></div>
+        <div class="">不重复文件数：<span>{{uniqe_number}}</span></div>
+        <div class="">不重复文件数据量：<span>{{uniqe_size}}</span></div>
+    </div>
+</body>
+</html>

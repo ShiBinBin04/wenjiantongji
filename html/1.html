@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计数据</title>
+    <script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+    <script>
+    $(function () {
+        $(":submit[id=submit]").click(function(check){
+            // 去除前后空格
+            var time_start = $('#time_start').val();
+            var time_end = $('#time_end').val();
+            if((time_start == "" && time_end != "") || (time_start != "" && time_end == "")) {
+                alert("请输入完整时间范围或者无时间条件查询！");
+                check.preventDefault();//此处阻止提交表单
+            }
+            else if (time_start != "" && time_end != ""){
+                if(compareDate(time_start, time_end) == false){
+                    alert("开始时间不能大于结束时间！");
+                    check.preventDefault();//此处阻止提交表单
+                }else {
+                    alert("数据量大，查询耗时长，点击确定开始查询！");
+                }
+            }else {
+                alert("数据量大，查询耗时长，点击确定开始查询！");
+            }
+        })
+    });
+    function compareDate(logintime, logouttime) {
+        var arys1 = new Array();
+        var arys2 = new Array();
+        if (logintime != null && logouttime != null) {
+            arys1 = logintime.split('-');
+            var logindate = new Date(arys1[0], parseInt(arys1[1] - 1), arys1[2]);
+            arys2 = logouttime.split('-');
+            var logoutdate = new Date(arys2[0], parseInt(arys2[1] - 1), arys2[2]);
+            if (logindate > logoutdate) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+    }
+</script>
+</head>
+<body>
+    <form id="form1" action="/api/tj" method="post">
+        <p>
+            <label>请选择数据库：</label>
+            <select name="database">
+                <option value="master1">master1</option>
+            </select>
+        </p>
+
+        <p>
+            <label>请选择表：</label>
+            <select name="table">
+                <option value="client1">client1</option>
+            </select>
+        </p>
+        <p>
+            <label>开始时间：</label>
+            <input type="date" name="time_start" id="time_start" min="2017-02-15" max="2018-02-27"></input>
+        </p>
+        <p>
+            <label>结束时间：</label>
+            <input type="date" name="time_end" id="time_end" min="2017-02-15" max="2018-02-27"></input>
+        </p>
+        <p>
+            <input type="submit" name="" id="submit" value="开始">
+        </p>
+    </form>
+</body>
+</html>

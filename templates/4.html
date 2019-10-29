@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计数据</title>
+    <style>
+        .page_num a{
+            display:inline-block;
+            padding:5px;
+            margin:3px;
+            background-color:gray;
+        }
+        .page_num a.active {
+            background-color: pink;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <label>表：{{table}}</label>
+    </p>
+    <p>
+        <label>filename：{{filename}}</label>
+    </p>
+    <h1>显示结果</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>filename</th>
+                <th>attr</th>
+                <th>fuser</th>
+                <th>fgroup</th>
+                <th>size</th>
+                <th>date</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in list_info%}
+        <tr>
+            <td>{{item[5]}}</td>
+            <td>{{item[0]}}</td>
+            <td>{{item[1]}}</td>
+            <td>{{item[2]}}</td>
+            <td>{{item[3]}}</td>
+            <td>{{item[4]}}</td>
+        </tr>
+        {% end %}
+        </tbody>
+    </table>
+    <div class="page_num">
+        {% raw str_page %}
+    </div>
+
+</body>
+</html>

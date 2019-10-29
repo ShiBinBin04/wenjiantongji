@@ -888,3 +888,52 @@
 [I 191025 09:51:47 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 757.04ms
 [I 191025 09:51:53 web:2246] 304 GET /api/list/duplic+master1+client1+101976+--+--/1 (127.0.0.1) 16.00ms
 [I 191025 09:51:57 web:2246] 304 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 18.00ms
+[D 191028 16:22:51 selector_events:54] Using selector: SelectSelector
+[I 191028 16:23:03 web:2246] 200 GET / (127.0.0.1) 309.02ms
+[I 191028 16:23:03 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 47.00ms
+[W 191028 16:23:04 web:2246] 404 GET /favicon.ico (127.0.0.1) 8.00ms
+[I 191028 16:25:05 web:2246] 200 POST /api/tj (127.0.0.1) 45054.58ms
+[I 191028 16:25:53 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 108.01ms
+[I 191028 16:25:55 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/4 (127.0.0.1) 8.00ms
+[I 191028 16:25:56 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/8 (127.0.0.1) 8.00ms
+[I 191028 16:26:26 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/1641024 (127.0.0.1) 24203.38ms
+[I 191028 16:27:41 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 870.05ms
+[I 191028 16:32:34 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/2 (127.0.0.1) 902.05ms
+[I 191028 16:33:59 web:2246] 200 POST /api/tj (127.0.0.1) 48387.77ms
+[D 191029 08:58:13 selector_events:54] Using selector: SelectSelector
+[I 191029 08:58:58 web:2246] 304 GET / (127.0.0.1) 315.02ms
+[W 191029 08:58:59 web:2246] 404 GET /favicon.ico (127.0.0.1) 45.00ms
+[I 191029 08:59:49 web:2246] 200 POST /api/tj (127.0.0.1) 44623.55ms
+[I 191029 08:59:52 web:2246] 200 GET /api/list/duplic+master1+client1+101976+--+--/1 (127.0.0.1) 69.00ms
+[D 191029 10:20:36 selector_events:54] Using selector: SelectSelector
+[W 191029 10:20:52 web:2246] 404 GET /favicon.ico (127.0.0.1) 17.00ms
+[I 191029 10:21:29 web:2246] 200 GET / (127.0.0.1) 329.02ms
+[I 191029 10:21:30 web:2246] 200 GET /static/js/jquery-1.12.4.min.js (127.0.0.1) 49.00ms
+[I 191029 10:22:51 web:2246] 200 POST /api/tj (127.0.0.1) 44876.57ms
+[I 191029 10:25:41 web:2246] 200 GET /api/tj?table=client1&filename=fffff (127.0.0.1) 1.00ms
+[I 191029 10:25:57 web:2246] 304 GET / (127.0.0.1) 2.00ms
+[I 191029 10:26:07 web:2246] 304 GET /api/tj?table=client1&filename=fffff (127.0.0.1) 1.00ms
+[D 191029 14:00:31 selector_events:54] Using selector: SelectSelector
+[I 191029 14:00:35 web:2246] 200 GET / (127.0.0.1) 341.02ms
+[I 191029 14:01:41 web:2246] 200 GET /api/ss/inbody/?table=client1&filename=fffff (127.0.0.1) 54474.12ms
+[I 191029 14:03:46 web:2246] 200 GET /api/ss/inbody/?table=client1&filename=%2Fngboss%2Fboss%2F701%2F201704%2F70120170415010811187.pdf (127.0.0.1) 59993.43ms
+[W 191029 14:04:09 web:2246] 404 GET /api/tj/client1+/ngboss/boss/701/201704/70120170415010811187.pdf/1 (127.0.0.1) 65.00ms
+[D 191029 14:09:03 selector_events:54] Using selector: SelectSelector
+[I 191029 14:10:07 web:2246] 200 GET /api/ss/inbody/?table=client1&filename=%2Fngboss%2Fboss%2F701%2F201704%2F70120170415010811187.pdf (127.0.0.1) 60222.44ms
+[I 191029 14:11:29 web:2246] 200 GET /api/ss/client1+/ngboss/boss/701/201704/70120170415010811187.pdf/1 (127.0.0.1) 58320.34ms
+[I 191029 14:12:42 web:2246] 304 GET /api/ss/client1+/ngboss/boss/701/201704/70120170415010811187.pdf/1 (127.0.0.1) 58913.37ms
+[D 191029 14:16:40 selector_events:54] Using selector: SelectSelector
+[I 191029 14:16:45 web:2246] 200 GET / (127.0.0.1) 243.01ms
+[I 191029 14:17:57 web:2246] 200 POST /api/tj (127.0.0.1) 45364.59ms
+[I 191029 14:18:03 web:2246] 200 GET /api/list/duplic+master1+client1+23744+2017-08-01+2018-08-01/1 (127.0.0.1) 22.00ms
+[I 191029 14:18:05 web:2246] 200 GET /api/list/duplic+master1+client1+23744+2017-08-01+2018-08-01/4 (127.0.0.1) 25.00ms
+[I 191029 14:18:07 web:2246] 200 GET /api/list/duplic+master1+client1+23744+2017-08-01+2018-08-01/5 (127.0.0.1) 10.00ms
+[I 191029 14:19:00 web:2246] 200 POST /api/tj (127.0.0.1) 42153.41ms
+[I 191029 14:19:05 web:2246] 200 GET /api/list/duplic+master1+client1+101976+--+--/1 (127.0.0.1) 7.00ms
+[I 191029 14:19:09 web:2246] 200 GET /api/list/all+master1+client1+8205120+--+--/1 (127.0.0.1) 37.00ms
+[I 191029 14:19:13 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 772.04ms
+[I 191029 14:19:16 web:2246] 200 GET /api/list/duplic_uniqe+master1+client1+12+--+--/3 (127.0.0.1) 973.06ms
+[I 191029 14:19:34 web:2246] 304 GET /api/list/duplic_uniqe+master1+client1+12+--+--/1 (127.0.0.1) 760.04ms
+[I 191029 14:20:51 web:2246] 200 GET /api/ss/inbody/1?table=client1&filename=%2Fngboss%2Fboss%2F701%2F201705%2F70120170515063434487.pdf (127.0.0.1) 60348.45ms
+[I 191029 14:22:35 web:2246] 200 GET /api/ss/client1+/ngboss/boss/701/201705/70120170515063434487.pdf/1 (127.0.0.1) 61906.54ms
+[I 191029 14:24:47 web:2246] 304 GET /api/ss/client1+/ngboss/boss/701/201705/70120170515063434487.pdf/1 (127.0.0.1) 58925.37ms

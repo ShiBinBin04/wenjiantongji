@@ -6,7 +6,7 @@
     <script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
     <script>
     $(function () {
-        $(":submit[id=submit]").click(function(check){
+        $(":submit[id=submit1]").click(function(check){
             // 去除前后空格
             var time_start = $('#time_start').val();
             var time_end = $('#time_end').val();
@@ -54,21 +54,31 @@
 
         <p>
             <label>请选择表：</label>
-            <select name="table">
-                <option value="client1">client1</option>
-            </select>
+            <input type="text" name="table">
         </p>
         <p>
             <label>开始时间：</label>
-            <input type="date" name="time_start" id="time_start" min="2017-02-15" max="2018-02-27"></input>
+            <input type="date" name="time_start" id="time_start"></input>
         </p>
         <p>
             <label>结束时间：</label>
-            <input type="date" name="time_end" id="time_end" min="2017-02-15" max="2018-02-27"></input>
+            <input type="date" name="time_end" id="time_end"></input>
         </p>
         <p>
-            <input type="submit" name="" id="submit" value="开始">
+            <input type="submit" name="" id="submit1" value="开始">
         </p>
+    </form>
+    <form id="form2" action="/api/ss/inbody/1" method="get">
+        <p>
+            <label>表：</label>
+            <input type="text" name="table">
+        </p>
+        <p>
+            <label>filename：</label>
+            <input type="text" name="filename">
+        </p>
+        <p>
+            <input type="submit" name="" id="submit2" value="搜索">
     </form>
 </body>
 </html>

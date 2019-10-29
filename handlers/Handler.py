@@ -30,24 +30,26 @@ class TjHandler(BaseHandler):
                 sql = "select @files_size := sum(size)/1024/1024/1024 from %s"%(table,)
                 cur.execute(sql)
                 files_size = cur.fetchone()[0]  #文件总数据量
+                if files_number == 0:
+                    files_size = 0
                 sql = "select @duplic_total := count(*) from %s"%(table+"_duplic",)
                 cur.execute(sql)
                 duplicname_number = cur.fetchone()[0]  #同名文件数
                 sql = "select @duplic_size := sum(size)/1024/1024/1024 from %s"%(table+"_duplic",)
                 cur.execute(sql)
                 duplicname_size = cur.fetchone()[0]  #同名文件数据量
+                if duplicname_number == 0:
+                    duplicname_size = 0
                 sql = "select @duplic_uniqe_total := count(*) from %s where filename in (select filename from %s group by attr,fuser,fgroup,size,date,filename having count(*)=1)"%(table+"_duplic", table+"_duplic")
                 cur.execute(sql)
                 duplicname_uniqe_number = cur.fetchone()[0]  #同名但属性不同文件数
                 sql = "select @duplic_uniqe_size := sum(size)/1024/1024/1024 from %s where filename in (select filename from %s group by attr,fuser,fgroup,size,date,filename having count(*)=1)"%(table+"_duplic", table+"_duplic")
                 cur.execute(sql)
                 duplicname_uniqe_size = cur.fetchone()[0]  #同名但属性不同文件数据量
-                sql = "select @files_total - (@duplic_total - @duplic_uniqe_total)"
-                cur.execute(sql)
-                uniqe_number = cur.fetchone()[0]  #不重复文件数
-                sql = "select @files_size - (@duplic_size - @duplic_uniqe_size)"
-                cur.execute(sql)
-                uniqe_size = cur.fetchone()[0]  #不重复文件数据量
+                if duplicname_uniqe_number == 0:
+                    duplicname_uniqe_size = 0
+                uniqe_number = files_number-(duplicname_number-duplicname_uniqe_number)  #不重复文件数
+                uniqe_size = files_size-(duplicname_size-duplicname_uniqe_size)  #不重复文件数据量
             elif len(time_end) > 0 and len(time_start) > 0:
                 sql_time = """str_to_date(date, '%b%d%Y') between str_to_date("{}", '%Y-%m-%d') AND str_to_date("{}", '%Y-%m-%d')""".format(str(time_start), str(time_end))
                 sql = "select @files_total := count(*) from %s where %s"%(table, sql_time)
@@ -56,6 +58,8 @@ class TjHandler(BaseHandler):
                 sql = "select @files_size := sum(size)/1024/1024/1024 from %s where %s"%(table, sql_time)
                 cur.execute(sql)
                 files_size = cur.fetchone()[0]  # 文件总数据量
+                if files_number == 0:
+                    files_size = 0
                 sql = "select @duplic_total := count(*) from %s where %s"%(table + "_duplic", sql_time)
                 cur.execute(sql)
                 duplicname_number = cur.fetchone()[0]  # 同名文件数
@@ -63,6 +67,8 @@ class TjHandler(BaseHandler):
                 table + "_duplic", sql_time)
                 cur.execute(sql)
                 duplicname_size = cur.fetchone()[0]  # 同名文件数据量
+                if duplicname_number == 0:
+                    duplicname_size = 0
                 sql = "select @duplic_uniqe_total := count(*) from %s where (filename in (select filename from %s group by attr,fuser,fgroup,size,date,filename having count(*)=1)) and (%s)"%(
                 table+"_duplic", table+"_duplic", sql_time)
                 cur.execute(sql)
@@ -71,12 +77,10 @@ class TjHandler(BaseHandler):
                 table+"_duplic", table+"_duplic", sql_time)
                 cur.execute(sql)
                 duplicname_uniqe_size = cur.fetchone()[0]  # 同名但属性不同文件数据量
-                sql = "select @files_total - (@duplic_total - @duplic_uniqe_total)"
-                cur.execute(sql)
-                uniqe_number = cur.fetchone()[0]  # 不重复文件数
-                sql = "select @files_size - (@duplic_size - @duplic_uniqe_size)"
-                cur.execute(sql)
-                uniqe_size = cur.fetchone()[0]  # 不重复文件数据量
+                if duplicname_uniqe_number == 0:
+                    duplicname_uniqe_size = 0
+                uniqe_number = files_number-(duplicname_number-duplicname_uniqe_number)  #不重复文件数
+                uniqe_size = files_size-(duplicname_size-duplicname_uniqe_size)  #不重复文件数据量
             cur.close()
             conn.close()
         except Exception as e:
@@ -97,6 +101,48 @@ class TjHandler(BaseHandler):
             "duplicname_uniqe_size": duplicname_uniqe_size
         }
         self.render("2.html", **data)
+
+class SsHandler(BaseHandler):
+
+    def get(self, tiaojian, page):
+        if tiaojian == 'inbody':
+            table = self.get_argument('table')
+            filename = self.get_argument('filename')
+            tiaojian = table+'+'+filename
+        else:
+            table, filename = tiaojian.split('+')
+        try:
+            conn = pymysql.connect(host='localhost',
+                                   user='root',
+                                   passwd='123456',
+                                   db='nbufiles',
+                                   port=3306,
+                                   charset='utf8')
+            cur = conn.cursor()  # 获取一个游标
+            sql = "select count(*) from {} where filename like '%{}%'".format(table, filename)
+            cur.execute(sql)
+            number = cur.fetchone()[0]
+            page_obj = Pagination(page, number)
+            sql = "select * from {} where filename like '%{}%' limit {}, {}".format(table, filename, page_obj.start, page_obj.end - page_obj.start)
+            cur.execute(sql)
+            list = cur.fetchall()
+            cur.close()
+            conn.close()
+
+        except Exception as e:
+            logging.error(e)
+            return self.write('查询出错！')
+        # 当前页显示的数据
+        current_list = list
+        # 当前页显示的页码数相关html代码
+        url = '/api/ss/%s/' % (tiaojian,)
+        str_page = page_obj.page_num_show(url)
+        self.render('4.html',
+                    table=table,
+                    filename=filename,
+                    list_info=current_list,
+                    current_page=page_obj.current_page,
+                    str_page=str_page)
 
 
 class Pagination:
